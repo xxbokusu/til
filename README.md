@@ -1,4 +1,3 @@
-# hello-world
-for tutorial
+# TIL(Today I Learned)
 
-This repository is to learn how to use Github.
+This repository is to write my result of daily learning
