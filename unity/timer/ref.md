@@ -3,3 +3,7 @@
 https://github.com/baiman240z/unity-timer
 
 やりたいことはカウントアップだが、参考にできそう
+
+## 通知欄に表示する
+NotificationManager
+https://www.slideshare.net/pmw1415/ss-58218025
