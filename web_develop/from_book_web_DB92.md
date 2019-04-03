@@ -1,5 +1,5 @@
 https://gihyo.jp/magazine/wdpress/archive/2016/vol92
-↑の本に載ってた解説が非常にわかりやすかったので参考にしてWeb開発をかじってみる
+- ↑の本に載ってた解説が非常にわかりやすかったので参考にしてWeb開発をかじってみる
 
 
 ## Setting Developing Env
@@ -8,9 +8,13 @@ https://gihyo.jp/magazine/wdpress/archive/2016/vol92
 
 - Install Homebrew
 ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-ref. https://brew.sh/index_ja
+
+- ref. https://brew.sh/index_ja
 
 > What is 'curl'
+>
+> サーバから、もしくはサーバへデータを転送する。コマンド。この機能の使い方の一つとしてサーバからのinstallやサーバでのAPIの実行ができる
+- ref. https://qiita.com/bunty/items/758425773b2239feb9a7
 
 ## Install rbenv
 ```
