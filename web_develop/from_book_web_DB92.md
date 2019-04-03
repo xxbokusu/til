@@ -3,10 +3,10 @@ https://gihyo.jp/magazine/wdpress/archive/2016/vol92
 
 
 ## Setting Developing Env
-- Install Command Line Tools
+### Install Command Line Tools
 ```$ xcode-select --install```
 
-- Install Homebrew
+### Install Homebrew
 ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 - ref. https://brew.sh/index_ja
@@ -16,7 +16,7 @@ https://gihyo.jp/magazine/wdpress/archive/2016/vol92
 > サーバから、もしくはサーバへデータを転送する。コマンド。この機能の使い方の一つとしてサーバからのinstallやサーバでのAPIの実行ができる
 - ref. https://qiita.com/bunty/items/758425773b2239feb9a7
 
-## Install rbenv
+### Install rbenv
 ```
 $ brew install rbenv
 $ vim ~/.bash_profile 
@@ -28,10 +28,10 @@ ref.
 - https://qiita.com/Alex_mht_code/items/d2db2eba17830e36a5f1
 - https://github.com/rbenv/rbenv のReadme
 
-## Install Ruby 2.3.0
+### Install Ruby 2.3.0
 ```$ rbenv install 2.3.0```
 
-## Install Rails
+### Install Rails
 ```$ sudo gem install rails```
 gemがinstallされてなかったらbrewでinstallするかも
 
