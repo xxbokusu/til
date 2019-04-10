@@ -73,3 +73,10 @@ rebaseは基本的に履歴を改変して見栄え的に綺麗な形につく�
 > Ctrl+b -> d で切断
 > tmux a でセッション復帰
 
+## GASってなんだ？
+Google Apps Script
+参考：https://qiita.com/t_imagawa/items/47fc130a419b9be0b447
+Chromeの拡張機能として導入できてDrive上のコンテンツと連携できるみたい。
+なお連携できるのはContainer Bound Scriptのみの模様
+
+Googleが公開しているライブラリもあるみたい！：https://github.com/gsuitedevs/apps-script-samples
