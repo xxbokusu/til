@@ -40,3 +40,21 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 でremoteに一致させて解決
 次はgitignoreをセットしてMacで開くテストだ！
+
+## 4/15 gitignoreを反映していざ、って件
+いよいよ.gitignoreを作ってRepositoryに反映。
+WindowsとMacで共同開発を狙ってみた。
+
+gitignoreは　https://www.cg-method.com/entry/unity-gitignore-setting/ を参考に作成。
+http://astlab.jp/開発ツール/git/gitignoreを後から追加 にしたがって、
+> git rm -r --cached .
+
+を実行して反映した。
+いざ、pullしてOpen！　UnityHubでバージョン合わせをサボったので、
+> 	modified:   ProjectSettings/ProjectVersion.txt
+
+と出てしまう。気をとりなおしてUnityHubにWindowsと同じバージョンをロード。
+やり直すと消えたけど今度は
+> Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+
+確認して対応しなきゃなー。見た感じ必要なパッケージが入ってないだけだけど一旦寝かせておく方向で。
