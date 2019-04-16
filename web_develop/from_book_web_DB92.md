@@ -105,7 +105,7 @@ Ruby Sass has reached end-of-life and should no longer be used.
 
 * For more details, please refer to the Sass blog:
   https://sass-lang.com/blog/posts/7828841
-｀｀｀
+```
 なんのこっちゃ。
 とりあえず、指示に従ってconfigを見てみた
 > $grep -r 'config.i18n' ./
