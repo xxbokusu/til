@@ -14,6 +14,9 @@ ObjectのWidthとHeightを大きくするように弄って解決
 ## 4/11 UnityをGitRepositoryに追加するときの戦い
 https://qiita.com/sodaihirai/items/caf8d39d314fa53db4db
 ↑の手順に従って
+> git init
+
+して
 > git add -A
 
 をした時が今回のエラー。
@@ -39,6 +42,8 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 > git pull --rebase origin master
 
 でremoteに一致させて解決
+> git remote add origin [remote repositry]
+
 次はgitignoreをセットしてMacで開くテストだ！
 
 ## 4/15 gitignoreを反映していざ、って件
