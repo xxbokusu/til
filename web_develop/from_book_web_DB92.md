@@ -129,6 +129,7 @@ Use Ctrl-C to stop
 
 ### Create Table
 > 参考：https://techacademy.jp/magazine/7207
+
 上だととりあえずDBを作る、削除するなどのコマンド操作を教えてるけど、本では最初にマイグレーションファイルを作ることから始める。
 > $ bin/rails g migration CreateTasks content:text status:integer{4}
 > Running via Spring preloader in process 42281
@@ -142,4 +143,7 @@ Use Ctrl-C to stop
 > -- create_table(:tasks)
 >    -> 0.0014s
 > == 20190416121834 CreateTasks: migrated (0.0015s) =============================
+
+以降、コードの実装。ソースコードはこっから持ってこれる模様
+> https://github.com/wdpress/WDP92_NewComerTutorial
 
