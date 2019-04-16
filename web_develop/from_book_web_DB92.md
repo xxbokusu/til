@@ -60,3 +60,86 @@ bundlerの再インストールで解消
 > Run `bundle install` to install missing gems.
 
 えぇ…wakaran
+
+### 4/16 続き
+久々に叩いてみた
+> $ bin/rails server
+> Could not find rake-12.3.2 in any of the sources
+> Run `bundle install` to install missing gems.
+> $ bundle install
+
+おや、メッセージが変わった
+```
+(前略)
+HEADS UP! i18n 1.1 changed fallbacks to exclude default locale.
+But that may break your application.
+
+Please check your Rails app for 'config.i18n.fallbacks = true'.
+If you're using I18n (>= 1.1.0) and Rails (< 5.2.2), this should be
+'config.i18n.fallbacks = [I18n.default_locale]'.
+If not, fallbacks will be broken in your app by I18n 1.1.x.
+
+For more info see:
+https://github.com/svenfuchs/i18n/releases/tag/v1.1.0
+
+Post-install message from chromedriver-helper:
+
+  +--------------------------------------------------------------------+
+  |                                                                    |
+  |  NOTICE: chromedriver-helper is deprecated after 2019-03-31.       |
+  |                                                                    |
+  |  Please update to use the 'webdrivers' gem instead.                |
+  |  See https://github.com/flavorjones/chromedriver-helper/issues/83  |
+  |                                                                    |
+  +--------------------------------------------------------------------+
+
+Post-install message from sass:
+
+Ruby Sass has reached end-of-life and should no longer be used.
+
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  https://sass-lang.com/blog/posts/7828841
+｀｀｀
+なんのこっちゃ。
+とりあえず、指示に従ってconfigを見てみた
+> $grep -r 'config.i18n' ./
+> .//config/environments/production.rb:  config.i18n.fallbacks = true
+
+ヨシ。
+そして、、、
+> bin/rails server
+=> Booting Puma
+=> Rails 5.2.3 application starting in development
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.3.7-p456), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+
+動いたー！
+この状態でブラウザで http://localhost:3000 にアクセスするとデフォルトのRails画面が表示されるらしい。問題なし。
+
+### Create Table
+> 参考：https://techacademy.jp/magazine/7207
+上だととりあえずDBを作る、削除するなどのコマンド操作を教えてるけど、本では最初にマイグレーションファイルを作ることから始める。
+> $ bin/rails g migration CreateTasks content:text status:integer{4}
+> Running via Spring preloader in process 42281
+>      invoke  active_record
+>      create    db/migrate/20190416121834_create_tasks.rb
+
+問題なさそう。生成されたファイルの中身を見ても気になるところはなし。ついで起動もつつがなく完
+>  bin/rake db:migrate
+> Running via Spring preloader in process 42417
+> == 20190416121834 CreateTasks: migrating ======================================
+> -- create_table(:tasks)
+>    -> 0.0014s
+> == 20190416121834 CreateTasks: migrated (0.0015s) =============================
+
