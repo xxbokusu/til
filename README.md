@@ -115,3 +115,6 @@ https://note.mu/fromdusktildawn/n/nb7ee5a557447
 
 アウトプットの出し方の部分でちょっと思い当たる節がありすぎるので変えていきたい。
 実践を通してこそを理解として初めてアウトプットを生成する、ってすればどうにかモノになるか…？
+
+## 5/7 A tour of Goにとりかかった
+https://go-tour-jp.appspot.com/welcome/1
