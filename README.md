@@ -120,3 +120,14 @@ https://note.mu/fromdusktildawn/n/nb7ee5a557447
 https://go-tour-jp.appspot.com/welcome/1
 
 5/8 時点でMethods and interfacesの手前まで進行中。
+
+## 5/9 ゲーム関連の論文サーベイってやってみたい
+- Python
+ここかなぁ : Aidemy： https://aidemy.net
+もうちょっと短時間のやつ：https://www.programiz.com/python-programming/tutorial
+    多分DataCampってサイトに登録が必要
+
+## 5/9 Go言語以外の言語についてもツアーってないのかな
+ResearchMap作成に取り組んだ？ってやつ
+- https://researchmap.jp/mu8xrm15g-1918131/?action=multidatabase_action_main_filedownload&download_flag=1&upload_id=133467&metadata_id=107646
+    - 「多岐にわたりすぎる」ってちょっと諦め気味なので、分類分けして絞らないと自分でやるのも難しそう
