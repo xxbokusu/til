@@ -26,3 +26,8 @@ Macだとこれでできない。えっ
 > sed -i -e '[line_number]i\'$'\n'' hoge' [file]
 
 これでいい。結論、 `sed` コマンドはめんどい！
+
+### 追記
+改行を入れるには…？
+エスケープ文字を認識させるには一度 '$' を挟む必要があるみたいだ
+参考： http://nlfiedler.github.io/2010/12/05/newlines-in-sed-on-mac.html
