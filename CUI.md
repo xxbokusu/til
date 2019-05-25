@@ -8,3 +8,21 @@ echo list disk | diskpart
 ## ↑のechoにパイプかましてもPermissionが邪魔で上手くいかない～
 Windowsの設定を弄ろうとしても（https://blogger.zatsuroku.net/2017/11/blog-post_12.html）互換性の設定がないんだよね…
 仕方ないので、Cygwinからsudoで叩こうとしてみる
+
+## sedで任意のファイルの任意の行にdumpを仕込めるようにすると色々捗りそう
+> insert-dump [file] [line_number]
+
+こいつをエイリアスとして↓でよいはず
+> sed -i -e '1[line_number] hoge' [file]
+
+参考 :  https://www.atmarkit.co.jp/ait/articles/1610/13/news015.html
+        https://www.na3.jp/entry/20110310/p1
+        
+Macだとこれでできない。えっ
+> sed: 1: "/2/a hoge": command a expects \ followed by text
+
+検索をかけても `gnu-sedを使えばよい` など「そういうこと訊いてるんじゃないのだが…」って解法が目立つ（それを素直に受け取れたほうが良いのかもしれないが」
+で、最終的な参考： https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10171612785
+> sed -i -e '[line_number]i\'$'\n'' hoge' [file]
+
+これでいい。結論、 `sed` コマンドはめんどい！
