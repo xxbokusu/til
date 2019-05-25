@@ -119,7 +119,7 @@ https://note.mu/fromdusktildawn/n/nb7ee5a557447
 ## 5/7 A tour of Goにとりかかった
 https://go-tour-jp.appspot.com/welcome/1
 
-5/8 時点でMethods and interfacesの手前まで進行中。
+5/8 時点でMethods and interfacesの手前まで進行中。-> とりあえず5/17くらいまでで全体を見切った
 
 ## 5/9 Go言語以外の言語についてもツアーってないのかな
 - Python
