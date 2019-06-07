@@ -142,3 +142,14 @@ https://ludixlab.net/?p=22
 GDC2019の報告会っぽい公開資料
 https://www.igda.jp/?p=9699
 参考；GDC　https://www.gdconf.com/
+
+## 6/7 テストコードってなんぞやって話
+仕事でperlの単体テスㇳ、proveをちょっと見てたので気になって調べてみた。
+https://www.infiniteloop.co.jp/blog/2014/03/beginners_test/
+
+prove弄ってみないことにはあまりわからなそうだけどメリットは
+- 定期的にテストコードを実行することで機能を保証できる安心感
+- メンテナンス性の高さ（？）
+
+がポイントな模様
+proveの資料は : http://perl-users.jp/articles/advent-calendar/2011/test/21
