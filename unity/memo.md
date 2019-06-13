@@ -63,3 +63,57 @@ http://astlab.jp/開発ツール/git/gitignoreを後から追加 にしたがっ
 > Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
 
 確認して対応しなきゃなー。見た感じ必要なパッケージが入ってないだけだけど一旦寝かせておく方向で。
+
+## 6/13 ゲーム開発をする際にはつかえそうなやつ
+おすすめのOSSツール
+http://baba-s.hatenablog.com/entry/2018/03/23/090000
+
+Unity List
+https://unitylist.com/browse?f=projects
+
+3月のゲームジャムの作品
+https://unityroom.com/games/animal_circle
+
+ここから素材元を参考にする
+BGM/フリー素材
+https://soundeffect-lab.info/
+https://maoudamashii.jokersounds.com/
+https://pocket-se.info/
+https://dova-s.jp/_contents/author/profile000.html
+https://assetstore.unity.com/packages/audio/sound-fx/pro-sound-collection-50235
+https://soundcloud.com/sebaschan201/sets/hexera-romance
+https://www.hurtrecord.com/bgm/56/
+https://dova-s.jp/bgm/play1889.html
+https://soundrium.com/
+http://pansound.com/panicpumpkin/
+
+アニメーション全般
+https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
+
+フォント素材
+http://www17.plala.or.jp/xxxxxxx/00ff/
+
+by https://unityroom.com/games/block_connect
+
+サンプルUI素材
+https://assetstore.unity.com/packages/essentials/unity-samples-ui-25468
+UI Effect
+https://github.com/mob-sakai/UIEffect
+SimpleUI
+https://assetstore.unity.com/packages/2d/gui/icons/simple-ui-103969
+
+日本語入力
+https://github.com/unity3d-jp/WebGLNativeInputField
+
+リアルタイムマルチプレイヤーライブラリ
+https://assetstore.unity.com/packages/tools/network/photon-unity-networking-classic-free-1786
+
+ネットワーク周り
+https://assetstore.unity.com/packages/tools/network/pun-2-free-119922
+
+定番ライブラリ？
+UniRx 使い方（https://www.slideshare.net/torisoup/unity-unirx )
+https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276
+
+Effect
+https://assetstore.unity.com/packages/tools/particles-effects/flatfx-2d-effects-102072
