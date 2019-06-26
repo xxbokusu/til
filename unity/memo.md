@@ -117,3 +117,10 @@ https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extension
 
 Effect
 https://assetstore.unity.com/packages/tools/particles-effects/flatfx-2d-effects-102072
+
+## 6/27 WebGLビルドを試してみた
+https://blog.naichilab.com/entry/2017/04/29/125527
+ここでの手順通りにして2Dゲームについても`Build And Run`できることを確認
+https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-ufo-tutorial-52143
+
+オープンソースな2DゲームをいくつかDLすれば、それらの組み合わせでゲームを作れるか…？
