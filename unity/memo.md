@@ -124,3 +124,9 @@ https://blog.naichilab.com/entry/2017/04/29/125527
 https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-ufo-tutorial-52143
 
 オープンソースな2DゲームをいくつかDLすれば、それらの組み合わせでゲームを作れるか…？
+
+## 7/2 画面の一部を黒で塗りつぶす
+SpriteとShaderを使って実現する
+http://games.genieus.co.jp/unity/unity2d_mask/
+
+マスクを半透明に : http://tsubakit1.hateblo.jp/entry/2017/11/24/020430#%E5%8D%8A%E9%80%8F%E6%98%8E%E3%81%8C%E5%95%8F%E9%A1%8C
