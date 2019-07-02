@@ -134,3 +134,7 @@ http://games.genieus.co.jp/unity/unity2d_mask/
 背景までくり抜かれて描画順を工夫しても上手くいかない…どういうことだ…
 http://ghoul-life.hatenablog.com/entry/2017/06/26/202035
 
+## 7/3 音を出したい！！
+お手本の中を探した : ↑の中の　PsychoMothers/Assets/PsycthoMothers/Scripts/Battle/Manager/AudioManager.cs
+Audio Managerクラス : http://kan-kikuchi.hatenablog.com/entry/AudioManager
+その２　http://kan-kikuchi.hatenablog.com/entry/AudioManager2
