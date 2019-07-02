@@ -130,3 +130,7 @@ SpriteとShaderを使って実現する
 http://games.genieus.co.jp/unity/unity2d_mask/
 
 マスクを半透明に : http://tsubakit1.hateblo.jp/entry/2017/11/24/020430#%E5%8D%8A%E9%80%8F%E6%98%8E%E3%81%8C%E5%95%8F%E9%A1%8C
+
+背景までくり抜かれて描画順を工夫しても上手くいかない…どういうことだ…
+http://ghoul-life.hatenablog.com/entry/2017/06/26/202035
+
