@@ -138,3 +138,4 @@ http://ghoul-life.hatenablog.com/entry/2017/06/26/202035
 お手本の中を探した : ↑の中の　PsychoMothers/Assets/PsycthoMothers/Scripts/Battle/Manager/AudioManager.cs
 Audio Managerクラス : http://kan-kikuchi.hatenablog.com/entry/AudioManager
 その２　http://kan-kikuchi.hatenablog.com/entry/AudioManager2
+
