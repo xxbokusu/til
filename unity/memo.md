@@ -76,16 +76,16 @@ https://unityroom.com/games/animal_circle
 
 ここから素材元を参考にする
 BGM/フリー素材
-https://soundeffect-lab.info/
-https://maoudamashii.jokersounds.com/
-https://pocket-se.info/
-https://dova-s.jp/_contents/author/profile000.html
-https://assetstore.unity.com/packages/audio/sound-fx/pro-sound-collection-50235
-https://soundcloud.com/sebaschan201/sets/hexera-romance
-https://www.hurtrecord.com/bgm/56/
-https://dova-s.jp/bgm/play1889.html
-https://soundrium.com/
-http://pansound.com/panicpumpkin/
+- https://soundeffect-lab.info/
+- https://maoudamashii.jokersounds.com/
+- https://pocket-se.info/
+- https://dova-s.jp/_contents/author/profile000.html
+- https://assetstore.unity.com/packages/audio/sound-fx/pro-sound-collection-50235
+- https://soundcloud.com/sebaschan201/sets/hexera-romance
+- https://www.hurtrecord.com/bgm/56/
+- https://dova-s.jp/bgm/play1889.html
+- https://soundrium.com/
+- http://pansound.com/panicpumpkin/
 
 アニメーション全般
 https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
