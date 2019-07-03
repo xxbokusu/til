@@ -139,3 +139,6 @@ http://ghoul-life.hatenablog.com/entry/2017/06/26/202035
 Audio Managerクラス : http://kan-kikuchi.hatenablog.com/entry/AudioManager
 その２　http://kan-kikuchi.hatenablog.com/entry/AudioManager2
 
+とりあえず今のところここを使う
+hirameki https://pocket-se.info/search/?cat1=39&cat2=180
+コミカルなBGM https://www.hurtrecord.com/bgm/29/
