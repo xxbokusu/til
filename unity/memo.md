@@ -99,8 +99,6 @@ by https://unityroom.com/games/block_connect
 https://assetstore.unity.com/packages/essentials/unity-samples-ui-25468
 UI Effect
 https://github.com/mob-sakai/UIEffect
-SimpleUI
-https://assetstore.unity.com/packages/2d/gui/icons/simple-ui-103969
 
 日本語入力
 https://github.com/unity3d-jp/WebGLNativeInputField
