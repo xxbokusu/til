@@ -148,9 +148,20 @@ https://pixabay.com/
 
 ## 7/7 やった、やったよ
 初めて自分でちゃんと作ったゲームだ
-https://unityroom.com/games/eureka190707
+> https://unityroom.com/games/eureka190707
 
 クイズだしこんなん簡単に作れるやろと言われるかもしれんけど、今持っている知識から背伸びして精一杯やった。
 次にやりたいこと考えて今後もハードル設定していこう。
 
 UIと反応による基本的なゲームの面白さを意識することはできたし、テーマからブレないこともできたはず
+
+一番参考にしたサイトはここ
+> https://qiita.com/toRisouP/items/a868113c99179c585001
+
+設計やクラス構造、ディレクトリ構成などあらゆる意味でリスペクトした。
+
+今回のゲーム用に作ったデータはスプシで作成した
+> https://docs.google.com/spreadsheets/d/1M3-FSS6eqnIcC30xC2W8hsfv8JjNkXIHacE5GPb-wyI/edit#gid=1340895126
+
+最大の失敗は開発環境と本番環境で漢字の表示可否が違ったこと。
+最後の最後に気づいて全ての漢字を平仮名にする羽目になった。
