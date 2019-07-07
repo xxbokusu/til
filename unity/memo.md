@@ -145,3 +145,12 @@ hirameki https://pocket-se.info/search/?cat1=39&cat2=180
 https://styly.cc/ja/tips/stock_discont_stock/#Pixabay
 https://pixabay.com/
 でとりまGetする
+
+## 7/7 やった、やったよ
+初めて自分でちゃんと作ったゲームだ
+https://unityroom.com/games/eureka190707
+
+クイズだしこんなん簡単に作れるやろと言われるかもしれんけど、今持っている知識から背伸びして精一杯やった。
+次にやりたいこと考えて今後もハードル設定していこう。
+
+UIと反応による基本的なゲームの面白さを意識することはできたし、テーマからブレないこともできたはず
