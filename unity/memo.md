@@ -169,3 +169,7 @@ UIと反応による基本的なゲームの面白さを意識することはで
 画像素材
 https://unsplash.com/
 https://www.pakutaso.com/
+
+## 11/24 同人誌用に商用利用可能なパターンファイルを検索！
+http://bg-patterns.com/
+Oh…
