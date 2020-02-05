@@ -163,3 +163,9 @@ https://blog.manj.io/entry/20181221/1545318000
 コーディングの際は便利かもしれないが、今みたいに日本語の文章を打つ場合はもっさりする
 
 Windowsは `システムキー + Space` で切り替えできるのでつどつどで
+
+## 2020/2/5 Pixi.jsを触り始めた！
+Referenceは[ココ！](http://pixijs.download/release/docs/index.html)
+
+
+
