@@ -1,0 +1,27 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Noa
+	email = boxship.noah@gmail.com
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[gui]
+	recentrepo = C:/Users/noa/Documents/pokelog
+[credential]
+	helper = manager
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	psoh = push origin HEAD
+	sw = switch
+	cp = cherry-pick
+[core]
+	autoCRLF = false
+	safecrlf = false
